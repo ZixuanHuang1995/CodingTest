@@ -1,4 +1,4 @@
-# tsmc hackerank
+# tsmc hackerrank
 def compressedString(message):
     if not message:
         return ""
