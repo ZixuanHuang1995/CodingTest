@@ -1,4 +1,4 @@
-# tsmc hackerrank
+# hackerrank
 import math
 
 def maxSubsetSum(arr):
