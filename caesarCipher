@@ -1,0 +1,8 @@
+# hackerrank
+def simpleCipher(encrypted: str, k: int) -> str:
+    result = []
+    for c in encrypted:
+        # 每個字元向前移動 k 個位置
+        shifted = chr((ord(c) - ord('A') - k) % 26 + ord('A'))
+        result.append(shifted)
+    return ''.join(result)
